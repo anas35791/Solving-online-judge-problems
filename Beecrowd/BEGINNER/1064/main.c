@@ -1,0 +1,59 @@
+#include <stdio.h>
+int main()
+{
+    float  a,b,c,d,e,f,x,y;
+	scanf("%f%f%f%f%f%f",&a,&b,&c,&d,&e,&f);
+	if(a>0)
+	a=a;
+	else
+	a=0;
+	if(b>0)
+	b=b;
+	else
+	b=0;
+	if(c>0)
+	c=c;
+	else
+	c=0;
+	if(d>0)
+	d=d;
+	else
+	d=0;
+	if(e>0)
+	e=e;
+	else
+	e=0;
+	if(f>0)
+	f=f;
+	else
+	f=0;
+	x=(a+b+c+d+e+f);
+	if(a>0)
+	a=1;
+	else
+	a=0;
+	if(b>0)
+	b=1;
+	else
+	b=0;
+	if(c>0)
+	c=1;
+	else
+	c=0;
+	if(d>0)
+	d=1;
+	else
+	d=0;
+	if(e>0)
+	e=1;
+	else
+	e=0;
+	if(f>0)
+	f=1;
+	else
+	f=0;
+	y=a+b+c+d+e+f;
+	printf("%.0f valores positivos\n",y);
+	printf("%.1f\n",x/y);
+	return 0;
+}
